@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/team17-we-can-do-it-project/",
+    "build": "vite build --base=/WatchShop/",
     "preview": "vite preview"
   },
   "devDependencies": {
