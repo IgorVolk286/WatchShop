@@ -1,0 +1,89 @@
+.new-watches {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #fff;
+}
+
+.new-watches-container {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.new-watches-title {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.06em;
+    color: rgba(20, 20, 20, 0.4);
+    margin-bottom: 8px;
+}
+
+.new-watches-subtitle {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: var(--black);
+    margin-bottom: 40px;
+}
+
+.new-watches-gallery-item {
+    margin-bottom: 20px;
+}
+
+.new-watches-gallery-item:last-child {
+    margin-bottom: 0;
+}
+
+.new-watches-pictuare {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* !=============== TABLET ===================== */
+
+@media screen and (min-width: 768px) {
+    .new-watches {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .new-watches-subtitle {
+        font-size: 40px;
+        line-height: 1.1;
+        color: var(--dark);
+        max-width: 448px;
+    }
+
+    .new-wathes-gallery-list {
+        display: flex;
+        gap: 20px;
+    }
+
+    .new-watches-gallery-item {
+        margin-bottom: 0;
+    }
+}
+
+/* !=============== DESKTOP ===================== */
+
+@media screen and (min-width: 1280px) {
+    .new-watches {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .new-watches-subtitle {
+        margin-bottom: 80px;
+    }
+
+    .new-wathes-gallery-list {
+        gap: 24px;
+    }
+}
